@@ -8,6 +8,7 @@ function Asteroid(options) {
     options.vel = options.vel || Util.randomVec(3);
     options.pos = options.pos || [30, 30];
     MovingObject.call(this, options);
+
 }
 
 Util.inherits(Asteroid, MovingObject);
